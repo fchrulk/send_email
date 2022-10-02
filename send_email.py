@@ -39,4 +39,4 @@ def send_email(sender, sender_pass, recipients, subject, content, attachments=[]
     mail_server.login(sender, sender_pass)
     mail_server.send_message(message)
     mail_server.quit()
-    print('Email sent to {}!'.format(recipients))
+    print('Email sent to {}!'.format(', '.join(recipients)))

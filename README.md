@@ -2,13 +2,13 @@
 - Multiple recipients
 - Add attachments if needed
 ## Installation
-- cd to your working directory<br>
 `cd my-working-directory && git clone https://github.com/fchrulk/send_email.git`
-- cd to your working directory
 
 ### General
 ```
 from send_email import send_email
+
+send_email = send_email.send_email
 
 sender = 'sender@gmail.com'
 sender_pass = 'password'
@@ -33,6 +33,8 @@ Output:<br>
 ### With Attacments
 ```
 from send_email import send_email
+
+send_email = send_email.send_email
 
 sender = 'sender@gmail.com'
 sender_pass = 'password'
