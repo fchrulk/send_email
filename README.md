@@ -1,6 +1,10 @@
 # Send Email from Gmail via Python
 - Multiple recipients
 - Add attachments if needed
+## Installation
+- cd to your working directory<br>
+`cd my-working-directory && git clone https://github.com/fchrulk/send_email.git`
+- cd to your working directory
 
 ### General
 ```
